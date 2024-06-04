@@ -54,7 +54,7 @@ class Cadastro extends StatelessWidget {
                       SnackBar(
                         content: Text(
                           'Pontos do jogador ${pontos['username']}: ${pontos['pontos']}',
-                          style: TextStyle(fontSize: 18), // Aumentando ainda mais o tamanho da fonte
+                          style: TextStyle(fontSize: 18),
                         ),
                       ),
                     );
